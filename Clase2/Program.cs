@@ -9,17 +9,12 @@ namespace Clase2
     class Program
     {
         const int LIMITEDERECHA = 80;
+        const int LIMITEABAJO = 20;
 
         const int DERECHA = 1;
         const int IZQUIERDA = 2;
         const int ABAJO = 3;
         const int ARRIBA = 4;
-
-
-        public void metodo()
-        {
-
-        }
 
 
         static void Main(string[] args)
@@ -36,23 +31,23 @@ namespace Clase2
 
             //█ --> alt + 219   
 
-            for (int i = 1; i < 20; i++)
+            for (int i = 1; i < LIMITEABAJO; i++)
             {
                 Console.CursorLeft = 1;
                 Console.CursorTop = i;
                 Console.Write("█");
-                Console.CursorLeft = 80;
+                Console.CursorLeft = LIMITEDERECHA;
                 Console.CursorTop = i;
                 Console.Write("█");
             }
 
-            for (int i = 1; i <= 80; i++)
+            for (int i = 1; i <= LIMITEDERECHA; i++)
             {
                 Console.CursorLeft = i;
                 Console.CursorTop = 1;
                 Console.Write("█");
                 Console.CursorLeft = i;
-                Console.CursorTop = 20;
+                Console.CursorTop = LIMITEABAJO;
                 Console.Write("█");
             }
 
@@ -68,7 +63,7 @@ namespace Clase2
                     foreach (Jugador jugador in jugadores)
                     {
                         if(jugador != null)
-                            jugador.mover();
+                            jugador.Mover();
                     }
                     //using System.Threading
                     Thread.Sleep(100);

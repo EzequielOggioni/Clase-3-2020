@@ -8,6 +8,10 @@ namespace Clase2
 
     public class Jugador
     {
+        const int LIMITEDERECHA = 80;
+        const int LIMITEABAJO = 20;
+
+
         const int DERECHA = 1;
         const int IZQUIERDA = 2;
         const int ABAJO = 3;
@@ -57,7 +61,7 @@ namespace Clase2
 
         }
 
-        public void mover()
+        public void Mover()
         {
             Console.CursorLeft = posicionX;
             Console.CursorTop = posicionY;
@@ -66,16 +70,36 @@ namespace Clase2
             switch (movimiento)
             {
                 case DERECHA:
+                    if(posicionX == LIMITEDERECHA -1)
+                    {
+                        posicionX = 40;
+                        vida--;
+                    }
                     posicionX++;
                     break;
 
                 case IZQUIERDA:
+                    if (posicionX == 1)
+                    {
+                        posicionX = 40;
+                        vida--;
+                    }
                     posicionX--;
                     break;
                 case ARRIBA:
+                    if (posicionY == 1)
+                    {
+                        posicionY = 10;
+                        vida--;
+                    }
                     posicionY--;
                     break;
                 case ABAJO:
+                    if (posicionY == LIMITEABAJO - 1)
+                    {
+                        posicionY = 10;
+                        vida--;
+                    }
                     posicionY   ++;
                     break;
 
