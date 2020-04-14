@@ -1,0 +1,9 @@
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.csproj.CoreCompileInputs.cache
+C:\Users\Paola\source\repos\Clase2\Clase4\bin\Debug\Clase4.exe
+C:\Users\Paola\source\repos\Clase2\Clase4\bin\Debug\Clase4.pdb
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.exe
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.pdb
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.csprojResolveAssemblyReference.cache
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.MiSegundoForm.resources
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.FrmPrimero.resources
+C:\Users\Paola\source\repos\Clase2\Clase4\obj\Debug\Clase4.csproj.GenerateResource.Cache

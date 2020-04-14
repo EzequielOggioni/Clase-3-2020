@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Clase4
 {
+    
+
     public class Estante
     {
         public Producto[] productos;

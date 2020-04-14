@@ -22,8 +22,12 @@ namespace Clase2
 
             
             Jugador.numeroJugadores = 0;
-            Jugador[] jugadores = new Jugador[4];
+            Jugador[] jugadores;
+            jugadores   = new Jugador[4];
             
+
+
+
             //   Jugador jugador2 = new Jugador("Lara", true);
             ConsoleKeyInfo consoleKeyInfo;
 

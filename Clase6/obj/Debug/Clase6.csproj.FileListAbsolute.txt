@@ -1,0 +1,11 @@
+C:\Users\Paola\source\repos\Clase2\Clase6\bin\Debug\Clase6.exe
+C:\Users\Paola\source\repos\Clase2\Clase6\bin\Debug\Clase6.pdb
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.csprojResolveAssemblyReference.cache
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.Form1.resources
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.Properties.Resources.resources
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.csproj.GenerateResource.Cache
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.csproj.CoreCompileInputs.cache
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.exe
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.pdb
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.FrmSegundo.resources
+C:\Users\Paola\source\repos\Clase2\Clase6\obj\Debug\Clase6.FrmTercero.resources

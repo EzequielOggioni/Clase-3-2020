@@ -5,7 +5,9 @@ using System.Text;
 
 namespace Clase4
 {
-    public class Producto
+    
+
+    public partial class Producto
     {
         public string tipo;
         public float precio;
@@ -53,7 +55,16 @@ namespace Clase4
             return aux;
         }
 
+        public override bool Equals(object obj)
+        {
+            return this == (Producto)obj;
 
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();  
+        }
 
         public static explicit operator int(Producto prod)
         {
